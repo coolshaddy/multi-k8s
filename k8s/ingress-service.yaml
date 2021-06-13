@@ -12,7 +12,7 @@ spec:
     - hosts:
         - sschouhan.tk
         - www.sschouhan.tk
-      secretName: letsencrypt-prod
+      secretName: sschouhan-tk
   rules:
     - host: sschouhan.tk
       http:
