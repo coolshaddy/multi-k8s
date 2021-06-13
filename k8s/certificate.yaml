@@ -3,7 +3,7 @@ kind: Certificate
 metadata:
   name: sschouhan-tk-tls
 spec:
-  secretName: sschouhan.tk
+  secretName: sschouhan-tk
   IssuerRef:
     name: letsencrpt-prod
     kind: ClusterIssuer
