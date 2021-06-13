@@ -4,6 +4,8 @@ metadata:
   name: sschouhan-tk-tls
 spec:
   secretName: sschouhan-tk
+  duration: 24h
+  renewBefore: 12h
   issuerRef:
     name: letsencrpt-prod
     kind: ClusterIssuer
@@ -11,10 +13,4 @@ spec:
   dnsNames:
     - sschouhan.tk
     - www.sschouhan.tk
-  acme:
-    config:
-      - http01:
-          ingressClass: nginx
-        domains:
-          - sschouhan.tk
-          - www.sschouhan.tk
+  
