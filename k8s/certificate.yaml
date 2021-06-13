@@ -5,7 +5,7 @@ metadata:
 spec:
   secretName: sschouhan-tk
   issuerRef:
-    name: letsencrpt-prod
+    name: letsencrypt-prod
     kind: Issuer
   commonName: sschouhan.tk
   dnsNames:
