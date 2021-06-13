@@ -6,7 +6,7 @@ spec:
   secretName: sschouhan-tk
   issuerRef:
     name: letsencrpt-prod
-    kind: ClusterIssuer
+    kind: Issuer
   commonName: sschouhan.tk
   dnsNames:
     - sschouhan.tk
